@@ -1,4 +1,4 @@
-### Bank Customer Churn Analysis - EDA, Predictive Modelling, Evaluation
+### Bank Customer Churn Analysis - EDA, Model Prediction, Evaluation
 ---
 
 ### 1. Project Overview
@@ -8,14 +8,11 @@
  -Seaborn, Matplotlib (for visualization).
  -Scikit-learn (for preprocessing, model training, evaluation)
 
-
 ---
-
 
 ### 2. Dataset Overview
  -18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
  -Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
-
 
 ---
 
