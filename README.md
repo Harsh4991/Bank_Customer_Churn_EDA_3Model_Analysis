@@ -36,20 +36,20 @@
 
 
 ### 4. Data Preprocessing
-    -  **label Encoding**: Converting categorical columns `Gender`, `Geography` to numeric.
-    -  **Balancing Data**:Resampling the data using SMOTE.
-    -  **Correlation**: To detect correlation between features after resampling.
+    - **label Encoding**: Converting categorical columns `Gender`, `Geography` to numeric.
+    - **Balancing Data**:Resampling the data using SMOTE.
+    - **Correlation**: To detect correlation between features after resampling.
 
-    -  ** Test Splitting the Data**
-    -  **Feature Scaling**: StandardScaler used for feature scaling  
+    - ** Test Splitting the Data**
+    - **Feature Scaling**: StandardScaler used for feature scaling  
 
 
 
 ### 5. Model prediction and Evaluation
-    -  **Logistic Regression, Decision Tree Classifier, Random Forest Classifier**
-    -  **Predictions** accuracy, precision, ROC AUC 
-    -  **Plotting ROC curve** for all three models
-    -  **Sample data is trained with all three models for comparison 
+    - **Logistic Regression, Decision Tree Classifier, Random Forest Classifier**
+    - **Predictions** accuracy, precision, ROC AUC 
+    - **Plotting ROC curve** for all three models
+    - **Sample data is trained with all three models for comparison 
 
 
 
@@ -89,11 +89,11 @@
 
 
 ### 7. Future Work
-     -  **Feature Scaling **: 
-     -  Further can look for another feature scaling to evaluate the accuracy
-     -  **Test Trail Split**:  
-     -  Can use 75-25 ratio
-     -  **Model predicting**:
+     - **Feature Scaling **: 
+     - Further can look for another feature scaling to evaluate the accuracy
+     - **Test Trail Split**:  
+     - Can use 75-25 ratio
+     - **Model predicting**:
      - Other models for training **KNeighborsClassifier, GradientBoositngClassifier** can be used  
      - **Grid Searching**:
      - Use Grid searching for evaluating the hyperparameters of the models
