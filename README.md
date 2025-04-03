@@ -11,8 +11,8 @@
 
 
 ### 2. Dataset Overview
-   -18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
-   -Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
+   - 18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
+   - Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
 
 
 
@@ -33,7 +33,7 @@
    4. **Continuous Variables**:
     - Used **Distribution curves** to show correlations among `credit score`, `Estimated Salary`.
 
----
+
 
 ### 4. Data Preprocessing
     -  **label Encoding**: Converting categorical columns `Gender`, `Geography` to numeric.
@@ -43,7 +43,7 @@
     -  ** Test Splitting the Data**
     -  **Feature Scaling**: StandardScaler used for feature scaling  
 
----
+
 
 ### 5. Model prediction and Evaluation
     -  **Logistic Regression, Decision Tree Classifier, Random Forest Classifier**
@@ -51,7 +51,7 @@
     -  **Plotting ROC curve** for all three models
     -  **Sample data is trained with all three models for comparison 
 
----
+
 
 ### 6. Insights
     - The correlation matrix has an interesting relationship- **the complaint and Exited variables are 100% positively correlated**.
@@ -86,7 +86,7 @@
     - **Decision Tree Classifier - 80%**.
     - **Random Forest Classifier- 85%**.
 
----
+
 
 ### 7. Future Work
      -  **Feature Scaling **: 
@@ -98,7 +98,7 @@
      - **Grid Searching**:
      - Use Grid searching for evaluating the hyperparameters of the models
 
----
+
 
 
 ### 8. Conclusion
