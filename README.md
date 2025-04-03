@@ -1,20 +1,20 @@
  ### Bank Customer Churn Analysis - EDA, Model Prediction, Evaluation
----
+
 
 ### 1. Project Overview
-  -This project  performs an exploratory data analysis (EDA) , predictive modeling by using 3 training models and result evaluation on a dataset related to customer churn . 
-  -**Libraries Imported**
-  -Pandas, NumPy (for data handling).
-  -Seaborn, Matplotlib (for visualization).
-  -Scikit-learn (for preprocessing, model training, evaluation)
+  - This project  performs an exploratory data analysis (EDA) , predictive modeling by using 3 training models and result evaluation on a dataset related to customer churn . 
+  - **Libraries Imported**
+  - Pandas, NumPy (for data handling).
+  - Seaborn, Matplotlib (for visualization).
+  - Scikit-learn (for preprocessing, model training, evaluation)
 
----
+
 
 ### 2. Dataset Overview
    -18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
    -Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
 
----
+
 
 ### 3. Steps and Workflow
    1. Data Cleaning
