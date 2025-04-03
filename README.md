@@ -1,66 +1,62 @@
 ### Bank Customer Churn Analysis - EDA, Predictive Modelling, Evaluation
 ---
 
-##1. Project Overview
-This project  performs an exploratory data analysis (EDA) , predictive modeling by using 3 training models and result evaluation on a dataset related to customer churn . 
-
-Libraries Imported
-
-Pandas, NumPy (for data handling)
-
-Seaborn, Matplotlib (for visualization)
-
-Scikit-learn (for preprocessing, model training, evaluation)
-
+###1. Project Overview
+ -This project  performs an exploratory data analysis (EDA) , predictive modeling by using 3 training models and result evaluation on a dataset related to customer churn . 
+ -**Libraries Imported**
+ -Pandas, NumPy (for data handling).
+ -Seaborn, Matplotlib (for visualization).
+ -Scikit-learn (for preprocessing, model training, evaluation)
 
 
 ---
 
 
-##2. Dataset Overview
-18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
-
-Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
+###2. Dataset Overview
+ -18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
+ -Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
 
 
 ---
 
-##3. Steps and Workflow
+###3. Steps and Workflow
+  1. Data Cleaning
+  - **Handle irrelevant columns **: `Row number`, `Customer`, and `Surname` 
+  - **Fix data types**: dtypes seems to be consistent
 
-### 1. Data Cleaning
-- **Handle irrelevant columns **: `Row number`, `Customer`, and `Surname` 
-- **Fix data types**: dtypes seems to be consistent
-
-### 2. EDA (Exploratory Data Analysis)
-1. **Correlation Matrix**: 
+  2. EDA (Exploratory Data Analysis)
+   - **Correlation Matrix**: 
    - Features impacting churn rate in positive direction is **balance, age, complaint**.
    - **Member status, number of products and credit score** are negatively correlated with exited
    - **Exited & Complain** have **100%** correlation .
 
-2. **Churn as Target Variable**:
+  3.**Churn as Target Variable**:
    - Analyzed **churn  by Gender, Geography, Age group, Number of products, credit card, Member status, Tenure**.
   
-3. **Continuous Variables**:
+  4. **Continuous Variables**:
    - Used **Distribution curves** to show correlations among `credit score`, `Estimated Salary`.
 
 ---
 
 ###4. Data Preprocessing
-- **label Encoding**: Converting categorical columns `Gender`, `Geography` to numeric.
-- **Balancing Data**:Resampling the data using SMOTE.
-- **Correlation**: To detect correlation between features after resampling.
+  - **label Encoding**: Converting categorical columns `Gender`, `Geography` to numeric.
+  - **Balancing Data**:Resampling the data using SMOTE.
+  - **Correlation**: To detect correlation between features after resampling.
 
-### 4. Test Splitting the Data
-- **Feature Scaling**: StandardScaler used for feature scaling  
-
-### 5. Model prediction and Evaluation
- - **Logistic Regression, Decision Tree Classifier, Random Forest Classifier**
- -**Predictions** accuracy, precision, ROC AUC 
- - **Plotting ROC curve** for all three models
- - **Sample data is trained with all three models for comparison 
+ 1. Test Splitting the Data
+  - **Feature Scaling**: StandardScaler used for feature scaling  
 
 ---
-##6. Insights
+
+### 5. Model prediction and Evaluation
+  - **Logistic Regression, Decision Tree Classifier, Random Forest Classifier**
+  -**Predictions** accuracy, precision, ROC AUC 
+  - **Plotting ROC curve** for all three models
+  - **Sample data is trained with all three models for comparison 
+
+---
+
+###6. Insights
  -The correlation matrix has an interesting relationship- **the complaint and Exited variables are 100% positively correlated**.
  -Churn Rate- **about 20% of customers are leaving the bank, out of the 10,000.**
  -Churn vs. Features
@@ -83,7 +79,7 @@ Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Est
 
 ---
 
-##7. Future Work
+###7. Future Work
 - **Feature Scaling **: 
    - Further can look for another feature scaling to evaluate the accuracy
 - **Test Trail Split**:  
@@ -96,7 +92,7 @@ Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Est
 ---
 
 
-##8. Conclusion
+###8. Conclusion
 This project offers valuable insights into the Bank Customer Churn, helping bank to understand why customers are churned . By using **EDA techniques, Predictive Modelling**, we identified key trends and developed actionable recommendations. Future improvements can involve advanced analytics and including more predictive modeling to further enhance the findings.
 
 ---
