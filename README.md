@@ -11,8 +11,8 @@
 ---
 
 ### 2. Dataset Overview
- -18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
- -Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
+ --18 columns, including customer demographics, credit scores, balance, tenure, product ownership, and satisfaction scores.
+ --Features like Credit Score, Age, Balance, NumOfProducts, IsActiveMember, and Estimated Salary are analyzed.
 
 ---
 
