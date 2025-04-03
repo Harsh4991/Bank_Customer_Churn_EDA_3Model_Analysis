@@ -17,11 +17,11 @@
 
 
 ### 3. Steps and Workflow
-   1. Data Cleaning
+   - **Data Cleaning**
    - **Handle irrelevant columns **: `Row number`, `Customer`, and `Surname` 
    - **Fix data types**: dtypes seems to be consistent
 
-   2. EDA (Exploratory Data Analysis)
+    - **EDA (Exploratory Data Analysis)**
     - **Correlation Matrix**: 
     - Features impacting churn rate in positive direction is **balance, age, complaint**.
     - **Member status, number of products and credit score** are negatively correlated with exited
